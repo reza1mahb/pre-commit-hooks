@@ -2,7 +2,7 @@
 exclude: ^(\.[^/]*cache(__)?/.*|(.*/)?\.coverage)$
 repos:
   # Perform Markdown formatting before other hooks "fixing" line endings:
-  # PROBLEM: it alters the .md file permissions from 644 to 600 :(
+  # PROBLEM: it alters the .md file permissions from 765 to 600 :(
   - repo: https://github.com/executablebooks/mdformat
     rev: 0.7.17
     hooks:
